@@ -2,7 +2,7 @@
 Need a hand with dat quick arithmetic? Matic is here to save your ass. Whenever you open up a new terminal you will be prompted to answer a randomly generated sum that you *should* be able to solve with simple mental arithmetic.
 
 ## Installation
-To install matic you can either build from source (like a normal go project) through using `go get` etc, or download the latest stable version in the (releases page)[https://github.com/paked/matic/releases].
+To install matic you can either build from source (like a normal go project) through using `go get` etc, or download the latest stable version in the [releases page](https://github.com/paked/matic/releases).
 
 Once you have gotten hold of a build, you should append this line to either your `.bashrc` or `.zshrc`: `./path/to/matic`.
 
