@@ -9,11 +9,15 @@ Once you have gotten hold of a build, you should append this line to either your
 ## Options
 By default, matic will test you on addition and subtraction sums where the numbers will be `>= 0` and `<= 12`. You can change this by specifiying a flag or environment variable as shown below
 
-Flag Name | Environment Variable Name | Result                   | Default
-----------|---------------------------|--------------------------|
---min | MIN | Change the minimum value | 0
---max | MAX | Change the maximum value | 12
---addition | ADDITION | Whether to enable additon | true 
---subtraction | SUBTRACTION | Whether to enable subtraction | true
---multiplication | MULTIPLICATION | Whether to enable multiplication | false
---division | DIVISION | Whether to enable division | false
+|Flag Name | Environment Variable Name | Result | Default|
+|---|---|---|---|
+|\-\-min | MIN | Change the minimum value | 0 |
+|\-\-max | MAX | Change the maximum value | 12 |
+|\-\-addition | ADDITION | Whether to enable additon | true |
+|\-\-subtraction | SUBTRACTION | Whether to enable subtraction | true |
+|\-\-multiplication | MULTIPLICATION | Whether to enable multiplication | false |
+|\-\-division | DIVISION | Whether to enable division | false |
+
+## Example Usage
+* `matic --min=-12 --max=10`, set minimum to 12 and maximum to 12
+* `matic --multiplication=true --addition=false --subtraction=false`, enable multiplication, disable addition and subtraction
